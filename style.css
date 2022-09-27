@@ -1,0 +1,160 @@
+body ,html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas:  
+     "header header header header header"
+     "menus main main main main"
+     "menus main main main main"
+     "menus main main main main"
+     "menus main main main main"
+     "menus main main main main"
+     "menus main main main main"
+     "menus main main main main"
+     "menus main main main main"
+     "menus main main main main"
+     "menus main main main main"
+     "menus main main main main"
+     "menus main main main main"
+     "menus main main main main"
+     "menus main main main main"
+     "footer footer footer footer footer"
+     "footer footer footer footer footer"
+    ;
+}
+.header{
+    grid-area: header;
+    background-color:rgb(119, 0, 255);
+    display: flex;
+    justify-content:space-between;
+    border: solid 1px rgba(0, 0, 0, 0.5);
+}
+.menus{
+    grid-area: menus;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px rgba(0, 0, 0, 0.377);
+}
+.main{
+    height: 100%;
+    grid-area: main;
+    background-image: url(/imagenes/paginaweb.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px rgba(0, 0, 0, 0.322);
+    background-size: cover;
+}
+.login{
+    height: 90%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(0, 0, 0, 0.74);
+    border-radius: 20px 20px 20px 20px;
+}
+.informacion{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 55px;
+}
+.register{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.Nombre{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+h5 ,h1 {
+    color: aliceblue;
+}
+#enviar{
+    margin: 10px;
+    width: 30%;
+    height: 10%;
+}
+#input{
+    width: 50%;
+    height: 40%;
+}
+.footer{
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color:rgb(119, 0, 255);
+    border: solid 1px rgba(0, 0, 0, 0.541);
+    justify-content: space-evenly;
+
+}
+.logo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+.texto{
+    width: 40%;
+    height: 100%;
+    background-position: center;
+    background-color: rgb(119, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#ft2{
+    opacity: 0.7;
+}
+.navegador{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(119, 0, 255) ;
+    background-image: url(/imagenes/wowdesarrolo.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    border: solid 1px rgba(0, 0, 0, 0.459);
+
+}
+#barras{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+
+}
+.gmail{
+    color: rgb(2, 226, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+  
